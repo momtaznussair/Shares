@@ -1,0 +1,5 @@
+#Options +FollowSymLinks
+#RewriteEngine On
+#RewriteRule ^shares.com/([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z0-9]*)?/?$ /shares.com/index.php?controller=$1&action=$2&id=$3 [R]
+
+
